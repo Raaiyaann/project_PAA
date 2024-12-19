@@ -1,0 +1,41 @@
+ProsesPerhitunganPAA
+Nama:Mohammad Raiyan
+Kelas:Informatika A
+NIM:F55123001
+
+Pengumpulan Data:
+
+Program mengukur waktu yang dibutuhkan untuk memeriksa keunikan elemen dalam array dengan berbagai ukuran (n_values).
+Pengukuran dilakukan 10 kali untuk setiap ukuran array (n), dan waktu yang diukur disimpan dalam daftar times.
+Perhitungan Waktu Kasus Terburuk:
+
+Untuk setiap ukuran array (n), waktu kasus terburuk dihitung sebagai waktu maksimum dari 10 pengukuran.
+Waktu kasus terburuk disimpan dalam daftar worst_case_times.
+Perhitungan Waktu Rata-rata:
+
+Untuk setiap ukuran array (n), waktu rata-rata dihitung sebagai rata-rata dari 10 pengukuran.
+Waktu rata-rata disimpan dalam daftar average_case_times.
+Visualisasi Hasil:
+
+Hasil waktu kasus terburuk dan waktu rata-rata untuk setiap ukuran array (n) diplot dalam grafik menggunakan matplotlib.
+Grafik menunjukkan dua kurva: satu untuk waktu kasus terburuk dan satu untuk waktu rata-rata.
+Penjelasan Detail:
+Waktu Kasus Terburuk:
+
+Waktu kasus terburuk memberikan gambaran tentang performa terburuk dari algoritma dalam kondisi tertentu.
+Dalam konteks ini, waktu kasus terburuk adalah waktu maksimum yang dibutuhkan untuk memeriksa keunikan elemen dalam array dari 10 pengukuran.
+Waktu Rata-rata:
+
+Waktu rata-rata memberikan gambaran tentang performa rata-rata dari algoritma dalam kondisi normal.
+Dalam konteks ini, waktu rata-rata adalah rata-rata waktu yang dibutuhkan untuk memeriksa keunikan elemen dalam array dari 10 pengukuran.
+Contoh Perhitungan:
+Misalkan kita memiliki ukuran array n = 100 dan hasil pengukuran waktu sebagai berikut (dalam detik):
+
+Waktu Kasus Terburuk:
+
+Waktu maksimum dari times adalah 0.0021 detik.
+Jadi, worst_case_times untuk n = 100 adalah 0.0021 detik.
+Waktu Rata-rata:
+
+Rata-rata waktu dari times adalah (0.001 + 0.002 + 0.0015 + 0.0018 + 0.0021 + 0.0019 + 0.0017 + 0.002 + 0.0016 + 0.0018) / 10 = 0.00174 detik.
+Jadi, average_case_times untuk n = 100 adalah 0.00174 detik.
